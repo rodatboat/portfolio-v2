@@ -1,0 +1,29 @@
+{
+    "projects":[
+        {
+            "title":"TrnkLink",
+            "description":"All-in-one link in bio social tool. Free & Open-source.",
+            "src":"https://github.com/rodatboat/trnk-link",
+            "live":null,
+            "stack":[
+                "React",
+                "Javascript",
+                "MongoDB",
+                "MUI"
+            ]
+        },
+        {
+            "title":"RapidABA",
+            "description":"Powerful ABA session note generator, and client management system.",
+            "src":null,
+            "live":"https://www.rapidaba.com",
+            "stack":[
+                "React",
+                "Javascript",
+                "MongoDB",
+                "MUI",
+                "Stripe"
+            ]
+        }
+    ]
+}
