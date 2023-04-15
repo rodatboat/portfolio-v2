@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
       <div className="mt-32">
-        <h2 className="text-3xl font-medium mb-4">my work</h2>
+        <h2 className="text-3xl italic underline font-medium mb-4">my work</h2>
         <div className="flex flex-col space-y-12">
           {projects.map((p, i) => (
             <div key={i} className="flex flex-col sm:flex-row">
@@ -17,8 +17,8 @@ export default function Projects() {
                 <img src={image} className="rounded-xl" loading="lazy"/>)}
               </div> */}
               
-              <div className="flex flex-col">
-                <h3 className="text-2xl font-bold mb-1">{p.title}</h3>
+              <div className="flex flex-col p-1">
+                <h3 className="text-2xl font-bold italic font-black"><a href={p.live ? p.live : p.src}>{p.title}</a></h3>
                 <h3 className="text-md mb-1">{p.description}</h3>
 
                 <div className="flex flex-row w-full space-x-1 mb-4">
