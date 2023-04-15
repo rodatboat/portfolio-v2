@@ -4,12 +4,14 @@
             "title":"TrnkLink",
             "description":"All-in-one link in bio social tool. Free & Open-source.",
             "src":"https://github.com/rodatboat/trnk-link",
-            "live":null,
+            "live":"https://github.com/rodatboat/trnk-link",
             "stack":[
                 "React",
                 "Javascript",
                 "MongoDB",
                 "MUI"
+            ],
+            "images":[
             ]
         },
         {
@@ -23,6 +25,9 @@
                 "MongoDB",
                 "MUI",
                 "Stripe"
+            ],
+            "images":[
+                "rapidaba2.png"
             ]
         }
     ]

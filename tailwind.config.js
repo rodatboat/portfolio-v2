@@ -6,8 +6,8 @@ export default {
   theme: {
     colors: {
       orange: {
-        light: "#F5AD8F",
-        DEFAULT: "#ef8354",
+        light: "#ef8354",
+        DEFAULT: "#CE4B12",
         dark: "#CE4B12",
       },
       green: {
