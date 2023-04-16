@@ -1,7 +1,6 @@
 import React from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
 import { BsMailbox } from "react-icons/bs";
-import { GrLinkedinOption } from "react-icons/gr";
 
 export default function Header() {
   return (
@@ -19,10 +18,10 @@ export default function Header() {
         </h1>
         <div className="flex flex-row w-full space-x-4 ">
           <a href="https://github.com/rodatboat" className="hover:text-secondary">
-            <AiFillGithub size={24} />
+            <RiGithubFill size={24} />
           </a>
           <a href="https://www.linkedin.com/in/ronaldo-suarez/" className="hover:text-secondary">
-            <GrLinkedinOption size={24} />
+            <RiLinkedinFill size={24} />
           </a>
           <a href="mailto:me@ronaldosuarez.dev" className="hover:text-secondary">
             <BsMailbox size={24} />

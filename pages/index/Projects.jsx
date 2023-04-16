@@ -1,7 +1,6 @@
 import React from "react";
 import { projects } from "../../me_config.json";
-import { AiFillGithub } from "react-icons/ai";
-import { RiShareForwardLine } from "react-icons/ri";
+import {RiShareForwardLine, RiGithubFill} from "react-icons/ri";
 
 export default function Projects() {
   // Add images to projects
@@ -21,7 +20,8 @@ export default function Projects() {
                     <a href={p.live ? p.live : p.src}>
                       <img
                         src={image}
-                        className="rounded-xl aspect-video h-auto max-w-full border border-primary hover:border-secondary"
+                        className="rounded-xl aspect-video h-auto max-w-full border-primary hover:border-secondary"
+                        alt={`${p.title} image`}
                         loading="lazy"
                       />
                     </a>
@@ -55,7 +55,7 @@ export default function Projects() {
                         className="font-bold flex flex-row items-center gap-x-1"
                         href={p.src}
                       >
-                        <AiFillGithub /> Source
+                        <RiGithubFill /> Source
                       </a>
                     </div>
                   )}
