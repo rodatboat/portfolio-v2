@@ -10,8 +10,8 @@ import Profile from "./Profile";
 function App() {
 
   return (
-    <div className="bg-green-light text-green min-h-screen w-screen">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 pt-6 sm:pt-8 md:pt-10">
+    <div className="bg-primary-light text-primary min-h-screen h-full w-screen">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-6 sm:py-8 md:py-10">
       <Header />
       {/* Add Image and Bio */}
       <Profile />

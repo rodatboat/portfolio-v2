@@ -5,15 +5,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      orange: {
-        light: "#ef8354",
-        DEFAULT: "#CE4B12",
-        dark: "#CE4B12",
-      },
-      green: {
+      primary: {
         light: "#c6ccb2",
         DEFAULT: "#093824",
         dark: "#062316",
+      },
+      secondary: {
+        light: "#ef8354",
+        DEFAULT: "#CE4B12",
+        dark: "#CE4B12",
       },
       magnolia: {
         light: "#e4dee4",
