@@ -2,7 +2,8 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./renderer/**/*.{vue,js,ts,jsx,tsx}",
+  "./pages/**/*.{vue,js,ts,jsx,tsx}",],
   theme: {
     colors: {
       primary: {

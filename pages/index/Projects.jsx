@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../me_config.json";
+import { projects } from "../../me_config.json";
 import { AiFillGithub } from "react-icons/ai";
 import { RiShareForwardLine } from "react-icons/ri";
 
