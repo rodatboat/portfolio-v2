@@ -9,7 +9,7 @@ export default function Header() {
       <div className="flex-col space-y-2">
         <p className="text-primary text-xl md:text-2xl">
           Software Engineer at{" "}
-          <a className="hover:text-secondary underline decoration-secondary" href="https://www.jpmorganchase.com">
+          <a className="hover:text-secondary underline decoration-secondary font-medium" href="https://www.jpmorganchase.com">
             JPMorgan Chase & Co.
           </a>
         </p>
@@ -27,7 +27,7 @@ export default function Header() {
           <a href="mailto:me@ronaldosuarez.dev" className="hover:text-secondary">
             <BsMailbox size={24} />
           </a>
-          <a className="bg-primary rounded px-1 ml-1 text-primary-light hover:bg-secondary" ><span className="font-bold tracking-wider">Ro</span>#7940</a>
+          <a href="https://www.discord.com" className="bg-primary rounded px-1 ml-1 text-primary-light hover:bg-secondary" ><span className="font-bold tracking-wider">Ro</span>#7940</a>
         </div>
       </div>
     </>
