@@ -4,7 +4,8 @@ export default function Profile() {
   return (
     <div className="mt-32" id="profile">
       {/* <img src="me.jpg" className="w-60 rounded-2xl grayscale" loading="lazy" title="me" alt="portrait of Ronaldo" /> */}
-      <div className="flex flex-col space-y-4 text-primary text-lg italic">
+      <h2 className="text-3xl italic underline font-medium mb-8">about me</h2>
+      <div className="flex flex-col space-y-4 text-primary text-lg font-medium">
         <p>
           As a full-stack developer with over 5+ years of experience, I've had
           the privilege of exploring various realms of the development universe,

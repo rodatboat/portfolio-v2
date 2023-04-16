@@ -1,20 +1,6 @@
 {
     "projects":[
         {
-            "title":"TrnkLink",
-            "description":"All-in-one link in bio social tool. Free & Open-source.",
-            "src":"https://github.com/rodatboat/trnk-link",
-            "live":"http://www.trnkl.ink",
-            "stack":[
-                "React",
-                "Javascript",
-                "MongoDB",
-                "MUI"
-            ],
-            "images":[
-            ]
-        },
-        {
             "title":"RapidABA",
             "description":"Powerful ABA session note generator, and client management system.",
             "src":null,
@@ -28,6 +14,52 @@
             ],
             "images":[
                 "rapidaba2.png"
+            ]
+        },
+        {
+            "title":"TrnkLink",
+            "description":"All-in-one link in bio social tool. Free & Open-source.",
+            "src":"https://github.com/rodatboat/trnk-link",
+            "live":"http://www.trnkl.ink",
+            "stack":[
+                "React",
+                "Javascript",
+                "MongoDB",
+                "MUI"
+            ],
+            "images":[
+                "trnklink_mockup.jpg"
+            ]
+        },
+        {
+            "title":"Lawn Agency",
+            "description":"Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
+            "src":"https://github.com/rodatboat/lawn-webapp",
+            "live":null,
+            "stack":[
+                "Java",
+                "Spring",
+                "Spring Security",
+                "Data JPA",
+                "MySQL"
+            ],
+            "images":[
+                "lawnagency.png"
+            ]
+        },
+        {
+            "title":"LPRecon",
+            "description":"Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
+            "src":"https://github.com/rodatboat/LPRecon-ALPR",
+            "live":null,
+            "stack":[
+                "Python",
+                "Javascript",
+                "OpenCV",
+                "ALPR"
+            ],
+            "images":[
+                "lprecon.jpg"
             ]
         }
     ]
