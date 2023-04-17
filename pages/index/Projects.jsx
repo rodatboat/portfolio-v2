@@ -17,7 +17,7 @@ export default function Projects() {
                     key={i}
                     className="max-w-full w-full md:max-w-sm p-2 md:p-0"
                   >
-                    <a name="project image" href={p.live ? p.live : p.src}>
+                    <a name="project image" href={p.live ? p.live : p.src}  target="_blank">
                       <img
                         src={image}
                         className="rounded-xl aspect-video hover:border-2 h-auto max-w-full border-primary hover:border-secondary"
@@ -32,7 +32,7 @@ export default function Projects() {
               <div className="flex flex-col w-full justify-between pb-2">
                 <div>
                   <h3 className="text-2xl font-bold italic font-black w-min hover:text-secondary">
-                    <a name="project title" href={p.live ? p.live : p.src}>{p.title}</a>
+                    <a name="project title" href={p.live ? p.live : p.src} target="_blank">{p.title}</a>
                   </h3>
                   <h3 className="text-md mb-1">{p.description}</h3>
 
@@ -54,6 +54,7 @@ export default function Projects() {
                       <a
                         className="font-bold flex flex-row items-center gap-x-1"
                         href={p.src}
+                        target="_blank"
                       >
                         <RiGithubFill /> Source
                       </a>
@@ -64,6 +65,7 @@ export default function Projects() {
                       <a
                         className="font-bold flex flex-row items-center gap-x-1"
                         href={p.live}
+                        target="_blank"
                       >
                         <RiShareForwardLine /> Live
                       </a>
