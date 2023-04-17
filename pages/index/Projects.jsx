@@ -6,7 +6,7 @@ export default function Projects() {
   // Add images to projects
   return (
     <>
-      <div className="mt-32" id="projects">
+      <div className="mt-16" id="projects">
         <h2 className="text-3xl italic underline font-medium mb-8">my work</h2>
         <div className="flex flex-col space-y-4">
           {projects.map((p, i) => (
@@ -20,7 +20,7 @@ export default function Projects() {
                     <a name="project image" href={p.live ? p.live : p.src}>
                       <img
                         src={image}
-                        className="rounded-xl aspect-video h-auto max-w-full border-primary hover:border-secondary"
+                        className="rounded-xl aspect-video hover:border-2 h-auto max-w-full border-primary hover:border-secondary"
                         alt={`${p.title} image`}
                         loading="lazy"
                       />
@@ -31,7 +31,7 @@ export default function Projects() {
 
               <div className="flex flex-col w-full justify-between pb-2">
                 <div>
-                  <h3 className="text-2xl font-bold italic font-black hover:text-secondary">
+                  <h3 className="text-2xl font-bold italic font-black w-min hover:text-secondary">
                     <a name="project title" href={p.live ? p.live : p.src}>{p.title}</a>
                   </h3>
                   <h3 className="text-md mb-1">{p.description}</h3>
@@ -40,7 +40,7 @@ export default function Projects() {
                     {p.stack.map((s, i) => (
                       <div
                         key={i}
-                        className="text-xs text-secondary border-secondary border rounded px-1.5"
+                        className="text-xs text-secondary font-bold border-secondary border rounded px-1.5"
                       >
                         {s}
                       </div>

@@ -20,7 +20,7 @@ export default function Footer() {
         <a name="spotify" href="https://open.spotify.com/user/ronaldo305" className="hover:text-secondary">Spotify</a>
       </div>
       <div>
-        <p>© 2023</p>
+        <p className="font-thin text-sm">© 2023</p>
       </div>
       </div>
     </div>
