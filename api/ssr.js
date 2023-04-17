@@ -1,10 +1,10 @@
 import { renderPage } from 'vite-plugin-ssr/server'
 
 export default async function handler(req, res) {
-  const { url } = req
-  console.log('Request to url:', url)
+  const { urlOriginal } = req
+  console.log('Request to url:', urlOriginal)
 
-  const pageContextInit = { url }
+  const pageContextInit = { urlOriginal }
   const pageContext = await renderPage(pageContextInit)
   const { httpResponse } = pageContext
 
