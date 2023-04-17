@@ -15,14 +15,35 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex flex-row justify-between mt-8">
-      <div className="flex flex-row space-x-8 w-min">
-        <a name="linkedin" href="https://www.linkedin.com/in/ronaldo-suarez/" className="hover:text-secondary"  target="_blank">LinkedIn</a>
-        <a name="github" href="https://github.com/rodatboat" className="hover:text-secondary"  target="_blank">Github</a>
-        <a name="spotify" href="https://open.spotify.com/user/ronaldo305" className="hover:text-secondary"  target="_blank">Spotify</a>
-      </div>
-      <div>
-        <p className="font-thin text-sm">© 2023</p>
-      </div>
+        <div className="flex flex-row space-x-8 w-min">
+          <a
+            name="linkedin"
+            href="https://www.linkedin.com/in/ronaldo-suarez/"
+            className="hover:text-secondary"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+          <a
+            name="github"
+            href="https://github.com/rodatboat"
+            className="hover:text-secondary"
+            target="_blank"
+          >
+            Github
+          </a>
+          <a
+            name="spotify"
+            href="https://open.spotify.com/user/ronaldo305"
+            className="hover:text-secondary"
+            target="_blank"
+          >
+            Spotify
+          </a>
+        </div>
+        <div>
+          <p className="font-thin text-sm">© 2023</p>
+        </div>
       </div>
     </div>
   );

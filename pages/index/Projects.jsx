@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../../me_config.json";
-import {RiShareForwardLine, RiGithubFill} from "react-icons/ri/index.js";
+import { RiShareForwardLine, RiGithubFill } from "react-icons/ri/index.js";
 
 export default function Projects() {
   // Add images to projects
@@ -17,10 +17,14 @@ export default function Projects() {
                     key={i}
                     className="max-w-full w-full md:max-w-sm p-2 md:p-0"
                   >
-                    <a name="project image" href={p.live ? p.live : p.src}  target="_blank">
+                    <a
+                      name="project image"
+                      href={p.live ? p.live : p.src}
+                      target="_blank"
+                    >
                       <img
                         src={image}
-                        className="rounded-xl aspect-video hover:border-2 h-auto max-w-full border-primary hover:border-secondary"
+                        className="rounded-xl aspect-video hover:border-2 h-auto max-w-full border-primary border border-primary"
                         alt={`${p.title} image`}
                         loading="lazy"
                       />
@@ -32,7 +36,13 @@ export default function Projects() {
               <div className="flex flex-col w-full justify-between pb-2">
                 <div>
                   <h3 className="text-2xl font-bold italic font-black w-min hover:text-secondary">
-                    <a name="project title" href={p.live ? p.live : p.src} target="_blank">{p.title}</a>
+                    <a
+                      name="project title"
+                      href={p.live ? p.live : p.src}
+                      target="_blank"
+                    >
+                      {p.title}
+                    </a>
                   </h3>
                   <h3 className="text-md mb-1">{p.description}</h3>
 
