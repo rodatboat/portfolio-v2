@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../../me_config.json";
-// import {RiShareForwardLine, RiGithubFill} from "react-icons/ri";
+import {RiShareForwardLine, RiGithubFill} from "react-icons/ri";
 
 export default function Projects() {
   // Add images to projects
@@ -55,7 +55,7 @@ export default function Projects() {
                         className="font-bold flex flex-row items-center gap-x-1"
                         href={p.src}
                       >
-                        {/* <RiGithubFill /> Source */}
+                        <RiGithubFill /> Source
                       </a>
                     </div>
                   )}
@@ -65,7 +65,7 @@ export default function Projects() {
                         className="font-bold flex flex-row items-center gap-x-1"
                         href={p.live}
                       >
-                        {/* <RiShareForwardLine /> Live */}
+                        <RiShareForwardLine /> Live
                       </a>
                     </div>
                   )}
