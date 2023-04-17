@@ -50,14 +50,14 @@ export default function Header() {
           >
             <BsMailbox size={24} />
           </a>
-          <a
+          {/* <a
             name="discord"
             href="https://www.discord.com"
             className="bg-primary rounded px-1 ml-1 text-primary-light hover:bg-secondary"
             target="_blank"
           >
             <span className="font-bold tracking-wider">Ro</span>#7940
-          </a>
+          </a> */}
           <a
             className="text-2xl italic hover:underline font-medium pb-1 hover:text-secondary hover:decoration-secondary"
             name="Ronaldo Suarez's Resume"
