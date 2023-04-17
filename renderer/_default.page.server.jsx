@@ -22,7 +22,7 @@ async function render(pageContext) {
     "Software Engineer at JPMorgan Chase & Co. I craft engaging user experiences designed to help people meaningfully engage with data.";
 
   const documentHtml = escapeInject`<!DOCTYPE html>
-    <html>
+    <html lang="en-US">
       <head>
       <meta charset="utf-8">
       <title>${title}</title>

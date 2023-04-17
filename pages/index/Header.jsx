@@ -8,7 +8,7 @@ export default function Header() {
       <div className="flex-col space-y-2">
         <p className="text-primary text-xl md:text-2xl">
           Software Engineer at{" "}
-          <a className="hover:text-secondary underline decoration-secondary font-medium" href="https://www.jpmorganchase.com">
+          <a name="jpmorganchase" className="hover:text-secondary underline decoration-secondary font-medium" href="https://www.jpmorganchase.com">
             JPMorgan Chase & Co.
           </a>
         </p>
@@ -17,16 +17,16 @@ export default function Header() {
           meaningfully engage with data.
         </h1>
         <div className="flex flex-row w-full space-x-4 ">
-          <a href="https://github.com/rodatboat" className="hover:text-secondary">
+          <a name="github" href="https://github.com/rodatboat" className="hover:text-secondary">
             <RiGithubFill size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/ronaldo-suarez/" className="hover:text-secondary">
+          <a name="linkedin" href="https://www.linkedin.com/in/ronaldo-suarez/" className="hover:text-secondary">
             <RiLinkedinFill size={24} />
           </a>
-          <a href="mailto:me@ronaldosuarez.dev" className="hover:text-secondary">
+          <a name="email" href="mailto:me@ronaldosuarez.dev" className="hover:text-secondary">
             <BsMailbox size={24} />
           </a>
-          <a href="https://www.discord.com" className="bg-primary rounded px-1 ml-1 text-primary-light hover:bg-secondary" ><span className="font-bold tracking-wider">Ro</span>#7940</a>
+          <a name="discord" href="https://www.discord.com" className="bg-primary rounded px-1 ml-1 text-primary-light hover:bg-secondary" ><span className="font-bold tracking-wider">Ro</span>#7940</a>
         </div>
       </div>
     </>

@@ -15,9 +15,9 @@ export default function Footer() {
       </div>
       <div className="flex flex-row justify-between mt-8">
       <div className="flex flex-row space-x-8 w-min">
-        <a href="https://www.linkedin.com/in/ronaldo-suarez/" className="hover:text-secondary">LinkedIn</a>
-        <a href="https://github.com/rodatboat" className="hover:text-secondary">Github</a>
-        <a href="https://open.spotify.com/user/ronaldo305" className="hover:text-secondary">Spotify</a>
+        <a name="linkedin" href="https://www.linkedin.com/in/ronaldo-suarez/" className="hover:text-secondary">LinkedIn</a>
+        <a name="github" href="https://github.com/rodatboat" className="hover:text-secondary">Github</a>
+        <a name="spotify" href="https://open.spotify.com/user/ronaldo305" className="hover:text-secondary">Spotify</a>
       </div>
       <div>
         <p>© 2023</p>
