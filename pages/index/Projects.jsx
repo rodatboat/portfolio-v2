@@ -40,9 +40,9 @@ export default function Projects() {
                     {p.stack.map((s, i) => (
                       <div
                         key={i}
-                        className="text-xs text-secondary font-bold border-secondary border rounded px-1.5"
+                        className="text-xs text-secondary bg-secondary-light font-bold border-secondary border rounded px-1.5"
                       >
-                        {s}
+                        <p>{s}</p>
                       </div>
                     ))}
                   </div>
