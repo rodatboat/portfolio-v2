@@ -1,6 +1,6 @@
 import React from "react";
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
-import { BsMailbox } from "react-icons/bs";
+import { RiGithubFill, RiLinkedinFill } from "react-icons/ri/index.js";
+import { BsMailbox } from "react-icons/bs/index.js";
 
 export default function Header() {
   return (

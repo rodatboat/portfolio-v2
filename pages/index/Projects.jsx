@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../../me_config.json";
-import {RiShareForwardLine, RiGithubFill} from "react-icons/ri";
+import {RiShareForwardLine, RiGithubFill} from "react-icons/ri/index.js";
 
 export default function Projects() {
   // Add images to projects
