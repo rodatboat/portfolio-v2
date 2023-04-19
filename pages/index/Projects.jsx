@@ -24,7 +24,7 @@ export default function Projects() {
                     >
                       <img
                         src={image}
-                        className="rounded-xl aspect-video hover:border-2 h-auto max-w-full border-primary border border-primary"
+                        className="rounded-xl aspect-video hover:border-2 h-auto max-w-xs border-primary border border-primary"
                         alt={`${p.title} image`}
                         loading="lazy"
                       />
@@ -33,9 +33,9 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="flex flex-col w-full justify-between pb-2">
+              <div className="flex flex-col w-full max-w-lg justify-between pb-2 ">
                 <div>
-                  <h3 className="text-2xl font-bold italic font-black w-min hover:text-secondary">
+                  <h3 className="text-2xl font-bold italic font-black w-full hover:text-secondary">
                     <a
                       name="project title"
                       href={p.live ? p.live : p.src}
