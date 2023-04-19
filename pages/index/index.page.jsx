@@ -3,7 +3,14 @@ import Header from "./Header";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import Profile from "./Profile";
+import Contributions from "./Contributions";
 import { projects } from "../../me_config.json";
+import
+ { Analytics } 
+from
+ 
+'@vercel/analytics/react'
+;
 
 export { Page };
 
@@ -20,7 +27,10 @@ function Page(pageProps) {
       {/* Add Image and Bio */}
       <Profile />
       <Projects />
+      <Contributions />
       <Footer />
+      
+      <Analytics />
     </>
   );
 }
