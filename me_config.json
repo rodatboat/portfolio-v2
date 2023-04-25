@@ -1,66 +1,65 @@
 {
-    "projects":[
+    "contributions": [
         {
-            "title":"RapidABA",
-            "description":"Powerful ABA session note generator, and client management system.",
-            "src":null,
-            "live":"https://www.rapidaba.com",
-            "stack":[
+            "title": "Asura Scans",
+            "description": "Discover the latest manga releases and read your favorite titles online at AsuraScans. Enjoy high-quality scans, user-friendly interface, and regular updates.",
+            "src": null,
+            "live": "https://www.asurascans.com",
+            "stack": [
+                "Next",
+                "React",
+                "Redis",
+                "SCSS",
+                "Tailwind"
+            ],
+            "images": ["asurascans1.png"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "RapidABA",
+            "description": "Streamline your ABA session notes with Rapidaba - a session note generator and client management system. Create and store session notes, track progress, and manage clients easily and securely.",
+            "src": null,
+            "live": "https://www.rapidaba.com",
+            "stack": [
                 "React",
                 "Javascript",
                 "MongoDB",
                 "MUI",
                 "Stripe"
             ],
-            "images":[
-                "rapidaba2.png"
-            ]
-        },
-        {
-            "title":"TrnkLink",
-            "description":"All-in-one link in bio social tool. Free & Open-source.",
-            "src":"https://github.com/rodatboat/trnk-link",
-            "live":"http://www.trnkl.ink",
-            "stack":[
-                "React",
-                "Javascript",
-                "MongoDB",
-                "MUI"
+            "images": ["rapidaba2.png"]
+        }, {
+            "title": "TrnkLink",
+            "description": "Maximize your online presence with TrnkLink. Create a single landing page to house all your important links, and share it easily on social media, or anywhere else. Customize your page according to your brand.",
+            "src": "https://github.com/rodatboat/trnk-link",
+            "live": "http://www.trnkl.ink",
+            "stack": [
+                "React", "Javascript", "MongoDB", "MUI"
             ],
-            "images":[
-                "trnklink_mockup.jpg"
-            ]
-        },
-        {
-            "title":"Lawn Agency",
-            "description":"Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
-            "src":"https://github.com/rodatboat/lawn-webapp",
-            "live":null,
-            "stack":[
+            "images": ["trnklink_mockup.jpg"]
+        }, {
+            "title": "Lawn Agency",
+            "description": "Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
+            "src": "https://github.com/rodatboat/lawn-webapp",
+            "live": null,
+            "stack": [
                 "Java",
                 "Spring",
                 "Spring Security",
                 "Data JPA",
                 "MySQL"
             ],
-            "images":[
-                "lawnagency.png"
-            ]
-        },
-        {
-            "title":"LPRecon",
-            "description":"Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
-            "src":"https://github.com/rodatboat/LPRecon-ALPR",
-            "live":null,
-            "stack":[
-                "Python",
-                "Javascript",
-                "OpenCV",
-                "ALPR"
+            "images": ["lawnagency.png"]
+        }, {
+            "title": "LPRecon",
+            "description": "Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
+            "src": "https://github.com/rodatboat/LPRecon-ALPR",
+            "live": null,
+            "stack": [
+                "Python", "Javascript", "OpenCV", "ALPR"
             ],
-            "images":[
-                "lprecon.jpg"
-            ]
+            "images": ["lprecon.jpg"]
         }
     ]
 }

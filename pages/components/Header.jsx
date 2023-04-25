@@ -59,7 +59,7 @@ export default function Header() {
             <span className="font-bold tracking-wider">Ro</span>#7940
           </a> */}
           <a
-            className="text-2xl italic hover:underline font-medium pb-1 hover:text-secondary hover:decoration-secondary"
+            className="text-lg italic hover:underline font-medium pb-1 hover:text-secondary hover:decoration-secondary"
             name="Ronaldo Suarez's Resume"
             href="/Ronaldo_Suarez_Resume_v.pdf"
             target="_blank"
