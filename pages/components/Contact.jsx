@@ -7,7 +7,7 @@ export default function Contact() {
         className="flex flex-col md:flex-row justify-center items-start md:items-center justify-between py-10 rounded-xl"
         id="contact"
       >
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl md:text-4xl font-bold text-white">
           Let's work together
           <span className="hidden md:inline-block">→</span>
         </h2>
