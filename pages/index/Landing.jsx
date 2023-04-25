@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Landing() {
     return (
-        <div className='pt-16 mt-14'>
+        <div className='py-16 mt-14'>
             <div>
                 <h2 className='text-secondary text-2xl'>Software Engineer at{" "}
                     <a

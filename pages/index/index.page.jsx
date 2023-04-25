@@ -8,6 +8,7 @@ from
 '@vercel/analytics/react'
 ;
 import NavBar from "./NavBar";
+import Projects from "./Projects";
 
 export { Page };
 
@@ -22,6 +23,7 @@ function Page(pageProps) {
     <>
       <NavBar />
       <Landing />
+      <Projects />
       
       <Analytics />
     </>
