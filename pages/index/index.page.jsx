@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import Projects from "./Projects";
-import Footer from "./Footer";
-import Profile from "./Profile";
-import Contributions from "./Contributions";
 import { projects } from "../../me_config.json";
+import Landing from "./Landing";
 import
  { Analytics } 
 from
  
 '@vercel/analytics/react'
 ;
+import NavBar from "./NavBar";
 
 export { Page };
 
@@ -23,12 +20,8 @@ export { Page };
 function Page(pageProps) {
   return (
     <>
-      <Header />
-      {/* Add Image and Bio */}
-      <Profile />
-      <Projects />
-      <Contributions />
-      <Footer />
+      <NavBar />
+      <Landing />
       
       <Analytics />
     </>

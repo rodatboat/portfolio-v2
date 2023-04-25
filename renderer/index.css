@@ -2,14 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Larsseit-Regular';
+  src: url('/Larsseit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Larsseit-Bold';
+  src: url('/Larsseit-Bold.ttf') format('truetype');
+}
+
+@layer base {
+  .font-bold {
+    font-family: 'Larsseit-Bold', sans-serif !important;
+  }
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(170, 170, 170);
+  background-color: #000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

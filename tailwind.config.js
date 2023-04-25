@@ -7,24 +7,22 @@ export default {
   theme: {
     colors: {
       primary: {
-        light: "#F6F6EF",
-        DEFAULT: "#093824",
-        dark: "#062316",
+        light:"#CFFF99",
+        DEFAULT: "#B8FF65",
       },
       secondary: {
-        light: "#e4dee4",
-        DEFAULT: "#443742",
-        dark: "#2D242C",
+        DEFAULT: "#aaa",
       },
-      magnolia: {
-        light: "#e4dee4",
-        DEFAULT: "#443742",
-        dark: "#2D242C",
+      white: {
+        DEFAULT: "#fff",
+      },
+      black: {
+        DEFAULT: "#000",
       },
     },
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        sans: ["Larsseit-Regular", "sans-serif"],
       },
     },
   },

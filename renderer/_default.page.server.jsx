@@ -42,6 +42,11 @@ async function render(pageContext) {
       <link rel="android-chrome" sizes="96x96" href="/android-chrome-96x96.png">
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+      
       </head>
       <body>
         <div id="root">${dangerouslySkipEscape(viewHtml)}</div>
