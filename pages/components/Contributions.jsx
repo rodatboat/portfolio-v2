@@ -1,92 +1,75 @@
-import React from "react";
-import { projects } from "../../me_config.json";
-import { RiShareForwardLine, RiGithubFill } from "react-icons/ri/index.js";
+import React from 'react';
+import { projects, other_projects, contributions } from "../../me_config.json";
+import { RiGithubFill } from "react-icons/ri/index.js";
 
 export default function Contributions() {
-  // Add images to projects
-  return (
-    <>
-      <div className="mt-16" id="projects">
-        <h2 className="text-3xl italic underline font-medium mb-8">my work</h2>
-        <div className="flex flex-col space-y-4">
-          {projects.map((p, i) => (
-            <div key={i} className="flex flex-col sm:flex-row space-x-4">
-              <div className="min-w-xs">
-                {p.images.map((image, i) => (
-                  <div
-                    key={i}
-                    className="max-w-full w-full md:max-w-sm p-2 md:p-0"
-                  >
-                    <a
-                      name="project image"
-                      href={p.live ? p.live : p.src}
-                      target="_blank"
-                    >
-                      <img
-                        src={image}
-                        className="rounded-xl aspect-video hover:border-2 h-auto max-w-full border-primary border border-primary"
-                        alt={`${p.title} image`}
-                        loading="lazy"
-                      />
-                    </a>
-                  </div>
-                ))}
-              </div>
-
-              <div className="flex flex-col w-full justify-between pb-2">
-                <div>
-                  <h3 className="text-2xl font-bold italic font-black w-min hover:text-secondary">
-                    <a
-                      name="project title"
-                      href={p.live ? p.live : p.src}
-                      target="_blank"
-                    >
+    const ContributionsLayout = () => {
+        return (
+          <>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-6 pt-20">
+              {contributions.map((p, i) => (
+                <div
+                  key={i}
+                  className="flex flex-col md:flex-row gap-4 bg-primary rounded-xl px-6 md:pr-0 pt-6"
+                >
+                  <div className="basis-2/3 pb-6 flex flex-col">
+                    <h2 className="text-4xl text-black font-bold py-10">
                       {p.title}
-                    </a>
-                  </h3>
-                  <h3 className="text-md mb-1">{p.description}</h3>
-
-                  <div className="flex flex-row w-full space-x-1 mb-4">
-                    {p.stack.map((s, i) => (
-                      <div
-                        key={i}
-                        className="text-xs text-secondary bg-secondary-light font-bold border-secondary border rounded px-1.5"
-                      >
-                        <p>{s}</p>
-                      </div>
-                    ))}
+                    </h2>
+                    <div className="flex flex-col h-full justify-between">
+                    <p className="text-xl text-black">{p.description}</p>
+                    <div className="flex flex-row items-center pt-10 text-xl gap-4 font-bold">
+                      {!p.src ? null : (
+                        <a
+                          href={p.src}
+                          target="_blank"
+                          className="rounded-lg text-black hover:text-primary bg-primary hover:bg-black transition-all duration-300 p-1"
+                        >
+                          <RiGithubFill size={24} />
+                        </a>
+                      )}
+                      {!p.live ? null : (
+                        <a
+                          href={p.live}
+                          target="_blank"
+                          className="text-black transition-all duration-300 hover:translate-x-1"
+                        >
+                          {p.live.replace("https://www.", "")} →
+                        </a>
+                      )}
+                    </div>
+                    </div>
                   </div>
-                </div>
-
-                <div className="flex flex-row w-full space-x-4">
-                  {!p.src ? null : (
-                    <div className="text-sm hover:text-secondary hover:border-secondary border-primary border rounded flex items-center px-1">
+                  {p.images.map((img, i) => (
+                    <div key={i} className="basis-1/3">
                       <a
-                        className="font-bold flex flex-row items-center gap-x-1"
-                        href={p.src}
+                        name="project image"
+                        href={p.live ? p.live : p.src}
                         target="_blank"
                       >
-                        <RiGithubFill /> Source
+                        <img
+                          className="h-[250px] md:h-full max-h-[250px] md:max-h-full w-full object-cover object-top md:rounded-none md:rounded-tl-lg rounded-t-lg hover:scale-[101%] transition-all ease-in"
+                          src={img}
+                          alt={`${p.title} image`}
+                          loading="lazy"
+                        />
                       </a>
                     </div>
-                  )}
-                  {!p.live ? null : (
-                    <div className="text-sm hover:text-secondary hover:border-secondary border-primary border rounded flex items-center px-1">
-                      <a
-                        className="font-bold flex flex-row items-center gap-x-1"
-                        href={p.live}
-                        target="_blank"
-                      >
-                        <RiShareForwardLine /> Live
-                      </a>
-                    </div>
-                  )}
+                  ))}
                 </div>
-              </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
-    </>
-  );
+          </>
+        );
+      };
+    return (
+        <>
+            <div className='pt-32 pb-6 md:pb-9' id="contributions">
+                <h2 className='text-4xl md:text-6xl font-bold'>Contributions</h2>
+            </div>
+            <div>
+                <ContributionsLayout />
+            </div>
+        </>
+    )
 }

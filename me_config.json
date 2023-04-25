@@ -29,16 +29,34 @@
                 "Stripe"
             ],
             "images": ["rapidaba2.png"]
-        }, {
+        },
+        {
+            "title": "readme.expert",
+            "description": "Create professional-looking READMEs quickly and easily, with customizable templates and intuitive tools.",
+            "src": "https://github.com/rodatboat/readme-expert",
+            "live": "https://www.readme.expert",
+            "stack": [
+                "Vite",
+                "React",
+                "MongoDB",
+                "Tailwind",
+                "PrismJS"
+            ],
+            "images": ["readmeexpert2.png"]
+        },
+        {
             "title": "TrnkLink",
             "description": "Maximize your online presence with TrnkLink. Create a single landing page to house all your important links, and share it easily on social media, or anywhere else. Customize your page according to your brand.",
             "src": "https://github.com/rodatboat/trnk-link",
-            "live": "http://www.trnkl.ink",
+            "live": "https://www.trnkl.ink",
             "stack": [
-                "React", "Javascript", "MongoDB", "MUI"
+                "Vite", "React", "MongoDB", "MUI"
             ],
             "images": ["trnklink_mockup.jpg"]
-        }, {
+        }
+    ],
+    "other_projects":[
+        {
             "title": "Lawn Agency",
             "description": "Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
             "src": "https://github.com/rodatboat/lawn-webapp",
