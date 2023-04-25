@@ -17,7 +17,7 @@ const ProjectLayout1 = () => {
                         </p>
                         <div className='flex flex-row items-center pt-10 text-xl gap-4 font-bold'>
                             <a href="#" className='rounded-lg text-white hover:text-black bg-black hover:bg-white transition-all duration-300 p-1'><RiGithubFill size={24} /></a>
-                            <a href="#" className='text-white hover:text-primary transition-all duration-300'>northstarmoney.com →</a>
+                            <a href="#" className='text-white hover:text-primary transition-all duration-300 hover:translate-x-1'>northstarmoney.com →</a>
                         </div>
                     </div>
                     <div className='basis-1/3 p-1'>
@@ -52,7 +52,7 @@ const ProjectLayout2 = () => {
                                 <a href="#" className='rounded-lg text-white hover:text-black bg-black hover:bg-white transition-all duration-300 p-1'>
                                     <RiGithubFill size={22} />
                                 </a>
-                                <a href="#" className='text-md text-white hover:text-primary transition-all duration-300'>northstarmoney.com →</a>
+                                <a href="#" className='text-md text-white hover:text-primary transition-all duration-300 hover:translate-x-1'>northstarmoney.com →</a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const ProjectLayout3 = () => {
                         </p>
                         <div className='flex flex-row items-center pt-10 text-xl gap-4 font-bold'>
                             <a href="#" className='rounded-lg text-black hover:text-primary bg-primary hover:bg-black transition-all duration-300 p-1'><RiGithubFill size={24} /></a>
-                            <a href="#" className='text-black transition-all duration-300 '>northstarmoney.com →</a>
+                            <a href="#" className='text-black transition-all duration-300 hover:translate-x-1'>northstarmoney.com →</a>
                         </div>
                     </div>
                     <div className='basis-1/3'>

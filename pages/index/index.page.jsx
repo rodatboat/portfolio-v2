@@ -9,6 +9,10 @@ from
 ;
 import NavBar from "./NavBar";
 import Projects from "./Projects";
+import Footer from "./Footer";
+import Contributions from "./Contributions";
+import FeaturedPosts from "./FeaturedPosts";
+import Contact from "./Contact";
 
 export { Page };
 
@@ -24,6 +28,10 @@ function Page(pageProps) {
       <NavBar />
       <Landing />
       <Projects />
+      <Contributions />
+      <FeaturedPosts />
+      <Contact />
+      <Footer />
       
       <Analytics />
     </>
