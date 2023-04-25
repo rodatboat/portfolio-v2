@@ -6,17 +6,17 @@ export default function Footer() {
             <div className='flex flex-row h-16 items-center justify-between'>
                 <div className='flex flex-row gap-4'>
                     <a href="#">
-                        <p className='text-sm text-secondary hover:-translate-x-1 transition-all duration-300'>LinkedIn</p>
+                        <p className='text-sm text-secondary hover:text-white  transition-all duration-300'>LinkedIn</p>
                     </a>
                     <a href="#">
-                        <p className='text-sm text-secondary hover:-translate-x-1 transition-all duration-300'>Github</p>
+                        <p className='text-sm text-secondary hover:text-white  transition-all duration-300'>Github</p>
                     </a>
                     <a href="#">
-                        <p className='text-sm text-secondary hover:-translate-x-1 transition-all duration-300'>Spotify</p>
+                        <p className='text-sm text-secondary hover:text-white  transition-all duration-300'>Spotify</p>
                     </a>
                 </div>
 
-                <p className='text-sm text-secondary hover:-translate-x-1 transition-all duration-300'>© 2023</p>
+                <p className='text-sm text-secondary'>© 2023</p>
             </div>
         </>
     )
