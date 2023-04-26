@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { projects } from "../../config/config.json";
+
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
+
+import { FiClock } from "react-icons/fi/index.js";
+
 import "./index.css";
+
 export { Page };
 
 // export const documentProps = {
@@ -15,7 +20,19 @@ export { Page };
 const BlogItem = (blogInfo) => {
   return (
     <>
-      <div>{blogInfo.title}</div>
+      <a
+        className="flex flex-col hover:text-primary"
+        href={`/blog/${blogInfo.slug}`}
+      >
+        <h2 className="text-2xl font-bold transition-all duration-300">
+          {blogInfo.title}
+        </h2>
+        <p className="text-lg !text-secondary">{blogInfo.desc}</p>
+        <p className="flex flex-row items-center gap-1 text-sm !text-secondary">
+          <FiClock size={12} />
+          {blogInfo.date}
+        </p>
+      </a>
     </>
   );
 };
@@ -23,8 +40,7 @@ const BlogItem = (blogInfo) => {
 function Page(pageProps) {
   const { blogs, tags } = pageProps;
 
-  useEffect(() => {
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <>
