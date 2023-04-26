@@ -20,11 +20,10 @@ const BlogItem = (blogInfo) => {
   );
 };
 
-function Page(pageProps, urlPathname) {
+function Page(pageProps) {
   const { blogs, tags } = pageProps;
 
   useEffect(() => {
-    console.log(urlPathname)
   }, []);
 
   return (
@@ -44,7 +43,7 @@ function Page(pageProps, urlPathname) {
             <a
               name={`All tags`}
               href={`/blog`}
-              className={`p-1 px-2 border rounded text-xs active-tag`}
+              className={`p-1 px-2 border rounded text-xs transition-all duration-300 font-bold active-tag hover:text-primary hover:border-primary`}
             >
               {" "}
               All
@@ -54,7 +53,7 @@ function Page(pageProps, urlPathname) {
                 name={`${t} tags`}
                 href={`/blog/tag/${t}`}
                 key={t}
-                className="p-1 px-2 border rounded text-xs"
+                className="p-1 px-2 border rounded text-xs transition-all duration-300 font-bold hover:text-primary hover:border-primary"
               >
                 {t}
               </a>
