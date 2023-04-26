@@ -84,12 +84,23 @@
         {
             "slug":"1",
             "file":"blog/1",
-            "title":"Test Blog",
+            "title":"Test Blog CSS",
             "desc":"This is a test",
             "date":"Aug 1st, 2023",
             "views":0,
             "tags":[
                 "CSS"
+            ]
+        },
+        {
+            "slug":"2",
+            "file":"blog/2",
+            "title":"Test Blog JS",
+            "desc":"This is a test",
+            "date":"Aug 1st, 2023",
+            "views":0,
+            "tags":[
+                "JavaScript"
             ]
         }
     ]

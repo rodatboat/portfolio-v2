@@ -59,7 +59,7 @@ export default function Projects() {
   const OtherProjectsLayout = () => {
     return (
       <>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 sm:gap-6 pt-20 md:pt-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-6 pt-20 md:pt-32">
           {other_projects.map((p, i) => (
             <div key={i} className="flex flex-col">
               {p.images.map((img, i) => (

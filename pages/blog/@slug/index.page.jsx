@@ -14,7 +14,6 @@ export { Page };
 function Page(pageProps) {
     const {slug, blog} = pageProps;
     useEffect(() => {
-        console.log("blog: " + blog.slug)
     }, [])
     
   return (
