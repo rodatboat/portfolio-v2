@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects, other_projects, contributions } from "../../me_config.json";
+import { projects, other_projects, contributions } from "../../config/config.json";
 import { RiGithubFill } from "react-icons/ri/index.js";
 
 export default function Contributions() {
@@ -21,6 +21,7 @@ export default function Contributions() {
                     <div className="flex flex-row items-center pt-10 text-xl gap-4 font-bold">
                       {!p.src ? null : (
                         <a
+                          name="Project Source Preview"
                           href={p.src}
                           target="_blank"
                           className="rounded-lg text-black hover:text-primary bg-primary hover:bg-black transition-all duration-300 p-1"
@@ -30,6 +31,7 @@ export default function Contributions() {
                       )}
                       {!p.live ? null : (
                         <a
+                          name="Project Live Preview"
                           href={p.live}
                           target="_blank"
                           className="text-black transition-all duration-300 hover:translate-x-1"
@@ -43,7 +45,7 @@ export default function Contributions() {
                   {p.images.map((img, i) => (
                     <div key={i} className="basis-1/3">
                       <a
-                        name="project image"
+                        name="Project Image"
                         href={p.live ? p.live : p.src}
                         target="_blank"
                       >

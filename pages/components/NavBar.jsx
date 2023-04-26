@@ -8,19 +8,16 @@ export default function NavBar() {
     <>
       <div className="z-50 h-14 fixed top-0 -mx-4 sm:-mx-6 md:-mx-8 font-bold bg-black/40 backdrop-blur-lg">
         <div className="flex flex-row gap-8 h-full w-screen items-center justify-start text-secondary pl-4 sm:pl-6 md:pl-8">
-          <a href="/#">
-            <img src="/me.jpg" className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in"/>
+          <a name="Go Home" href="/#">
+            <img alt="Portrait of me" src="/me.jpg" className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in"/>
           </a>
-          <a name="More About Me" href="/#about" className="hover:text-white transition-all duration-300">
+          <a name="More About Me" href="/#about" className="hover:text-primary transition-all duration-300">
             <p>About</p>
           </a>
-          <a name="My Projects" href="/#projects" className="hover:text-white transition-all duration-300">
+          <a name="My Projects" href="/#projects" className="hover:text-primary transition-all duration-300">
             <p>Projects</p>
           </a>
-          <a name="My Tools" href="/tools" className="hover:text-white transition-all duration-300">
-            <p>Tools</p>
-          </a>
-          <a name="My Blog" href="/blog" className="hover:text-white transition-all duration-300">
+          <a name="My Blog" href="/blog" className="hover:text-primary transition-all duration-300">
             <p>Blog</p>
           </a>
         </div>
@@ -28,7 +25,7 @@ export default function NavBar() {
       <div className="fixed bottom-0 end-0 m-4">
         <div className="flex flex-col space-y-4 items-center text-secondary">
           <a
-            name="github"
+            name="My Github"
             href="https://github.com/rodatboat"
             className="hover:text-white transition-all duration-300"
             target="_blank"
@@ -36,7 +33,7 @@ export default function NavBar() {
             <RiGithubFill size={28} />
           </a>
           <a
-            name="linkedin"
+            name="My LinkedIn"
             href="https://www.linkedin.com/in/ronaldo-suarez/"
             className="hover:text-white transition-all duration-300"
             target="_blank"
@@ -44,7 +41,7 @@ export default function NavBar() {
             <RiLinkedinFill size={28} />
           </a>
           <a
-            name="email"
+            name="Email Me"
             href="mailto:me@ronaldosuarez.dev"
             className="hover:text-white"
             target="_blank"
@@ -52,7 +49,7 @@ export default function NavBar() {
             <BsMailbox size={28} />
           </a>
           {/* <a
-            name="discord"
+            name="Discord"
             href="https://www.discord.com"
             className="bg-white transition-all duration-300"
             target="_blank"

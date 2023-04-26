@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { projects } from "../../config/config.json";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
-import Contact from "../components/Contact";
+import React, { useState, useEffect } from "react";
+import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
+import Contact from "../../components/Contact";
 
 export { Page };
 
@@ -13,13 +12,17 @@ export { Page };
 // }
 
 function Page(pageProps) {
+    const {slug, blog} = pageProps;
+    useEffect(() => {
+        console.log("blog: " + blog.slug)
+    }, [])
+    
   return (
     <>
       <NavBar />
 
       <div className="mt-14"></div>
       
-      <Contact />
       <Footer />
     </>
   );

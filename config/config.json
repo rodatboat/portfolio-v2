@@ -1,20 +1,4 @@
 {
-    "contributions": [
-        {
-            "title": "Asura Scans",
-            "description": "Discover the latest manga releases and read your favorite titles online at AsuraScans. Enjoy high-quality scans, user-friendly interface, and regular updates.",
-            "src": null,
-            "live": "https://www.asurascans.com",
-            "stack": [
-                "Next",
-                "React",
-                "Redis",
-                "SCSS",
-                "Tailwind"
-            ],
-            "images": ["asurascans1.png"]
-        }
-    ],
     "projects": [
         {
             "title": "RapidABA",
@@ -78,6 +62,35 @@
                 "Python", "Javascript", "OpenCV", "ALPR"
             ],
             "images": ["lprecon.jpg"]
+        }
+    ],
+    "contributions": [
+        {
+            "title": "Asura Scans",
+            "description": "Discover the latest manga releases and read your favorite titles online at AsuraScans. Enjoy high-quality scans, user-friendly interface, and regular updates.",
+            "src": null,
+            "live": "https://www.asurascans.com",
+            "stack": [
+                "Next",
+                "React",
+                "Redis",
+                "SCSS",
+                "Tailwind"
+            ],
+            "images": ["asurascans1.png"]
+        }
+    ],
+    "blogs":[
+        {
+            "slug":"1",
+            "file":"blog/1",
+            "title":"Test Blog",
+            "desc":"This is a test",
+            "date":"Aug 1st, 2023",
+            "views":0,
+            "tags":[
+                "CSS"
+            ]
         }
     ]
 }

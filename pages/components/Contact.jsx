@@ -11,7 +11,7 @@ export default function Contact() {
           Let's work together
           <span className="hidden md:inline-block">→</span>
         </h2>
-        <a href="mailto:me@ronaldosuarez.dev">
+        <a name="email me" href="mailto:me@ronaldosuarez.dev">
           <h2 className="text-3xl text-white hover:text-primary hover:-translate-x-1 transition-all duration-300 pr-2">
             me@ronaldosuarez.dev
           </h2>

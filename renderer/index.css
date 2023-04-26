@@ -5,11 +5,13 @@
 @font-face {
   font-family: 'Larsseit-Regular';
   src: url('/Larsseit-Regular.ttf') format('truetype');
+  /* font-display: swap; */
 }
 
 @font-face {
   font-family: 'Larsseit-Bold';
   src: url('/Larsseit-Bold.ttf') format('truetype');
+  /* font-display: swap; */
 }
 
 @layer base {
