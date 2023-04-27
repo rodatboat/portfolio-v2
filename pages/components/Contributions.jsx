@@ -10,7 +10,7 @@ export default function Contributions() {
               {contributions.map((p, i) => (
                 <div
                   key={i}
-                  className="flex flex-col md:flex-row gap-4 bg-primary rounded-xl px-6 md:pr-0 pt-6"
+                  className="flex flex-col md:flex-row gap-4 bg-primary rounded-xl px-4 md:pr-0 md:pt-4 overflow-hidden"
                 >
                   <div className="basis-2/3 pb-6 flex flex-col">
                     <h2 className="text-3xl md:text-4xl text-black font-bold py-10">
