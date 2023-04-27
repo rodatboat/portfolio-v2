@@ -24,7 +24,7 @@ function Page(pageProps) {
       <About />
       <Projects />
       <Contributions />
-      <FeaturedPosts />
+      {/* <FeaturedPosts /> */}
       <Contact />
       <Footer />
     </>
