@@ -1,0 +1,20 @@
+{
+    "name": "Ronaldo Suarez",
+    "short_name": "Ronaldo Suarez",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "display": "minimal-ui"
+}

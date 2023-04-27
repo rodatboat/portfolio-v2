@@ -26,6 +26,7 @@ async function render(pageContext) {
       <head>
       <meta charset="utf-8">
       <title>${title}</title>
+      
       <meta name="description" content="${desc}" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
@@ -38,15 +39,13 @@ async function render(pageContext) {
       <meta property="og:type" content="image/jpg" />
       <meta rel="icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-      <link rel="android-chrome" sizes="96x96" href="/android-chrome-96x96.png">
+      <link rel="android-chrome" sizes="96x96" href="/android-chrome-192x192.png">
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
-      
       </head>
       <body>
         <div id="root">${dangerouslySkipEscape(viewHtml)}</div>
