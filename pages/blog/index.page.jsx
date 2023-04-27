@@ -22,14 +22,17 @@ const BlogItem = (blogInfo) => {
         className="flex flex-col hover:text-primary [&_h2]:hover:decoration-dotted transition-all duration-300"
         href={`/blog/${blogInfo.slug}`}
       >
-        <h2 className="text-2xl font-bold underline">
+        <h2 className="text-2xl md:text-3xl font-bold underline">
           {blogInfo.title}
         </h2>
-        <p className="text-lg !text-secondary">{blogInfo.desc}</p>
+        <p className="text-md md:text-lg my-2 !text-secondary">{blogInfo.desc}</p>
         <p className="flex flex-row items-center gap-1 text-sm !text-secondary">
           <FiClock size={12} />
           {blogInfo.date}
+            {/* Insert view count here */}
         </p>
+
+        
       </a>
     </>
   );
@@ -51,7 +54,7 @@ function Page(pageProps) {
         </p>
       </div>
 
-      <div className="max-w-xl mx-auto min-w-[600px]">
+      <div className="max-w-xl mx-auto md:min-w-[600px]">
         <div className="flex flex-col gap-2 text-secondary pt-4 pb-8">
           <div className="flex flex-row gap-1">
             <a
