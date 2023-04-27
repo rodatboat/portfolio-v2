@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { projects } from "../../config/config.json";
 
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Contact from "../components/Contact";
 
 import { FiClock } from "react-icons/fi/index.js";
 
@@ -21,10 +19,10 @@ const BlogItem = (blogInfo) => {
   return (
     <>
       <a
-        className="flex flex-col hover:text-primary"
+        className="flex flex-col hover:text-primary [&_h2]:hover:decoration-dotted transition-all duration-300"
         href={`/blog/${blogInfo.slug}`}
       >
-        <h2 className="text-2xl font-bold transition-all duration-300">
+        <h2 className="text-2xl font-bold underline">
           {blogInfo.title}
         </h2>
         <p className="text-lg !text-secondary">{blogInfo.desc}</p>
@@ -40,20 +38,20 @@ const BlogItem = (blogInfo) => {
 function Page(pageProps) {
   const { blogs, tags } = pageProps;
 
-  useEffect(() => {}, []);
+  useEffect(() => { }, []);
 
   return (
     <>
       <NavBar />
 
-      <div className="mt-14 pt-16">
-        <h2 className="text-4xl md:text-6xl font-bold text-center">Blog</h2>
+      <div className="mt-14 pt-16 mb-2">
+        <h2 className="text-6xl font-bold text-center">Blog</h2>
         <p className="text-xl text-center text-secondary mt-8">
           A deep dive into my mind, experiences, interests, and more.
         </p>
       </div>
 
-      <div className="max-w-xl mx-auto">
+      <div className="max-w-xl mx-auto min-w-[600px]">
         <div className="flex flex-col gap-2 text-secondary pt-4 pb-8">
           <div className="flex flex-row gap-1">
             <a
@@ -85,7 +83,6 @@ function Page(pageProps) {
         </div>
       </div>
 
-      <Contact />
       <Footer />
     </>
   );

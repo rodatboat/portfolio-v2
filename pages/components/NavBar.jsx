@@ -9,16 +9,16 @@ export default function NavBar() {
       <div className="z-50 h-14 fixed top-0 -mx-4 sm:-mx-6 md:-mx-8 font-bold bg-black/40 backdrop-blur-lg">
         <div className="flex flex-row gap-8 h-full w-screen items-center justify-start text-secondary pl-4 sm:pl-6 md:pl-8">
           <a name="Go Home" href="/#">
-            <img alt="Portrait of me" src="/me.jpg" className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in"/>
+            <img alt="Portrait of me" src="/me.jpg" className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in" />
           </a>
           <a name="More About Me" href="/#about" className="hover:text-primary transition-all duration-300">
-            <p>About</p>
+            About
           </a>
           <a name="My Projects" href="/#projects" className="hover:text-primary transition-all duration-300">
-            <p>Projects</p>
+            Projects
           </a>
           <a name="My Blog" href="/blog" className="hover:text-primary transition-all duration-300">
-            <p>Blog</p>
+            Blog
           </a>
         </div>
       </div>

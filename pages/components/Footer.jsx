@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <>
-            <div className='flex flex-row h-16 items-center justify-between'>
+            <div className='flex flex-row h-16 items-center justify-between mt-auto'>
                 <div className='flex flex-row gap-4'>
                 <a 
                     name="LinkedIn"

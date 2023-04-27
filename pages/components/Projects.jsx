@@ -7,11 +7,11 @@ export default function Projects() {
     return (
       <>
         {projects.map((p, i) => (
-          <div key={i} className="flex flex-col md:flex-row gap-4 pt-20 md:pt-32">
+          <div key={i} className="flex flex-col md:flex-row gap-4 pt-10 md:pt-12">
             <div className="basis-2/3 order-2 md:order-1">
               <h2 className="text-3xl md:text-4xl font-bold py-3 md:py-10">{p.title}</h2>
               <p className="text-xl text-secondary">{p.description}</p>
-              <div className="flex flex-row items-center pt-10 text-xl gap-4 font-bold">
+              <div className="flex flex-row items-center pt-4 text-xl gap-4 font-bold">
                 {!p.src ? null : (
                   <a
                     name="Project Source Preview"
@@ -59,7 +59,7 @@ export default function Projects() {
   const OtherProjectsLayout = () => {
     return (
       <>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-6 pt-20 md:pt-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-6 pt-10 md:pt-32">
           {other_projects.map((p, i) => (
             <div key={i} className="flex flex-col">
               {p.images.map((img, i) => (
@@ -79,7 +79,7 @@ export default function Projects() {
                 </div>
               ))}
               <div className="basis-2/3 flex flex-col">
-                <h2 className="text-3xl md:text-4xl font-bold py-2">{p.title}</h2>
+                <h2 className="text-3xl md:text-4xl font-bold py-3 md:py-2">{p.title}</h2>
                 <div className="flex flex-col h-full justify-between">
                 <p className="text-xl md:text-sm text-secondary">{p.description}</p>
                 <div className="flex flex-row items-center pt-3 text-xl gap-4 font-bold">
