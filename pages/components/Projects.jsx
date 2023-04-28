@@ -8,10 +8,10 @@ export default function Projects() {
       <>
         {projects.map((p, i) => (
           <div key={i} className="flex flex-col md:flex-row gap-4 pt-10 md:pt-12">
-            <div className="basis-2/3 order-2 md:order-1">
-              <h2 className="text-3xl md:text-4xl font-bold py-3 md:py-10">{p.title}</h2>
+            <div className="flex flex-col space-between basis-2/3 order-2 md:order-1 py-2">
+              <h2 className="text-3xl md:text-4xl font-bold pb-3 md:pb-10">{p.title}</h2>
               <p className="text-xl text-secondary">{p.description}</p>
-              <div className="flex flex-row items-center pt-4 text-xl gap-4 font-bold">
+              <div className="flex-1 flex flex-row items-end pt-4 text-xl gap-4 font-bold">
                 {!p.src ? null : (
                   <a
                     name="Project Source Preview"
@@ -81,7 +81,7 @@ export default function Projects() {
               <div className="basis-2/3 flex flex-col">
                 <h2 className="text-3xl md:text-4xl font-bold py-3 md:py-2">{p.title}</h2>
                 <div className="flex flex-col h-full justify-between">
-                <p className="text-xl md:text-sm text-secondary">{p.description}</p>
+                <p className="text-xl text-secondary">{p.description}</p>
                 <div className="flex flex-row items-center pt-3 text-xl gap-4 font-bold">
                   {!p.src ? null : (
                     <a

@@ -9,11 +9,11 @@ import "./index.css";
 
 export { Page };
 
-// export const documentProps = {
-//   // This title and description will override the defaults
-//   title: 'About SpaceX',
-//   description: 'Our mission is to explore the galaxy.'
-// }
+export const documentProps = {
+  // This title and description will override the defaults
+  title: 'Ronaldo Suarez | Blog',
+  // description: 'Our mission is to explore the galaxy.'
+}
 
 const BlogItem = (blogInfo) => {
   return (

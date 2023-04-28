@@ -6,25 +6,25 @@ export default function Contributions() {
     const ContributionsLayout = () => {
         return (
           <>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-6 pt-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-6 pt-10 md:pt-12">
               {contributions.map((p, i) => (
                 <div
                   key={i}
-                  className="flex flex-col md:flex-row gap-4 bg-primary rounded-xl px-4 md:pr-0 md:pt-4 overflow-hidden"
+                  className="flex flex-col md:flex-row gap-4 rounded-xl px-4 md:pr-0 md:pt-4 overflow-hidden"
                 >
                   <div className="basis-2/3 pb-6 flex flex-col">
-                    <h2 className="text-3xl md:text-4xl text-black font-bold py-10">
+                    <h2 className="text-3xl md:text-4xl text-white font-bold pb-8">
                       {p.title}
                     </h2>
                     <div className="flex flex-col h-full justify-between">
-                    <p className="text-xl text-black">{p.description}</p>
+                    <p className="text-xl text-secondary">{p.description}</p>
                     <div className="flex flex-row items-center pt-10 text-xl gap-4 font-bold">
                       {!p.src ? null : (
                         <a
                           name="Project Source Preview"
                           href={p.src}
                           target="_blank"
-                          className="rounded-lg text-black hover:text-primary bg-primary hover:bg-black transition-all duration-300 p-1"
+                          className="rounded-lg text-white hover:text-primary bg-primary hover:bg-black transition-all duration-300 p-1"
                         >
                           <RiGithubFill size={24} />
                         </a>
@@ -34,7 +34,7 @@ export default function Contributions() {
                           name="Project Live Preview"
                           href={p.live}
                           target="_blank"
-                          className="text-black transition-all duration-300 hover:translate-x-1"
+                          className="text-white hover:text-primary transition-all duration-300 hover:translate-x-1"
                         >
                           {p.live.replace("https://www.", "")} →
                         </a>
