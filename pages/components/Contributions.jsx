@@ -8,11 +8,11 @@ export default function Contributions() {
           <>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-6 pt-10 md:pt-12">
               {contributions.map((p, i) => (
-                <div
-                  key={i}
-                  className="flex flex-col md:flex-row gap-4 rounded-xl px-4 md:pr-0 md:pt-4 overflow-hidden"
+                <div key={i} className='flex p-[1px] bg-gradient-to-b from-secondary via-black via-25% to-white to-100%  rounded-xl'>
+                  <div
+                  className="flex flex-col md:flex-row gap-4 rounded-xl bg-black px-4 md:pr-0 md:pt-4 overflow-hidden"
                 >
-                  <div className="basis-2/3 pb-6 flex flex-col">
+                  <div className="basis-2/3 pb-6 flex flex-col p-2">
                     <h2 className="text-3xl md:text-4xl text-white font-bold pb-8">
                       {p.title}
                     </h2>
@@ -48,6 +48,7 @@ export default function Contributions() {
                         name="Project Image"
                         href={p.live ? p.live : p.src}
                         target="_blank"
+                        className='p-1'
                       >
                         <img
                           className="h-[250px] md:h-full max-h-[250px] md:max-h-full w-full object-cover object-top md:rounded-none md:rounded-tl-lg rounded-t-lg hover:scale-[101%] transition-all ease-in"
@@ -59,6 +60,7 @@ export default function Contributions() {
                     </div>
                   ))}
                 </div>
+                  </div>
               ))}
             </div>
           </>

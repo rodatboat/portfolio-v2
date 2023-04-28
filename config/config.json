@@ -7,7 +7,7 @@
             "live": "https://www.rapidaba.com",
             "stack": [
                 "React",
-                "Javascript",
+                "Express",
                 "MongoDB",
                 "MUI",
                 "Stripe"
@@ -59,7 +59,37 @@
             "src": "https://github.com/rodatboat/LPRecon-ALPR",
             "live": null,
             "stack": [
-                "Python", "Javascript", "OpenCV", "ALPR"
+                "Python", "NodeJS", "OpenCV", "ALPR"
+            ],
+            "images": ["lprecon.jpg"]
+        },
+        {
+            "title": "Warframe MarketBuddy",
+            "description": "Electron application styled using Bulma which fetches the warframe.market API prices for the items specified.",
+            "src": "https://github.com/rodatboat/Warframe-MarketBuddy",
+            "live": null,
+            "stack": [
+                "Electron", "Bulma", "jQuery"
+            ],
+            "images": ["lprecon.jpg"]
+        },
+        {
+            "title": "pwnChecker",
+            "description": "Python script that checks for leaked credentials, using the pwnDB Onion service.",
+            "src": "https://github.com/rodatboat/pwnChecker",
+            "live": null,
+            "stack": [
+                "Python", "BeautifulSoup4"
+            ],
+            "images": ["lprecon.jpg"]
+        },
+        {
+            "title": "StockX Clone",
+            "description": "StockX clone built with React, Mongo, Styled Components, Stripe API.",
+            "src": "https://github.com/rodatboat/stockx-clone",
+            "live": "https://www.stockx-clone.vercel.app",
+            "stack": [
+                "React", "Mongo", "Express"
             ],
             "images": ["lprecon.jpg"]
         }

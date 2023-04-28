@@ -16,17 +16,7 @@ const BlogItem = (blogInfo) => {
         <p className="text-lg my-2 !text-secondary">{blogInfo.desc}</p>
         <div className="flex flex-row gap-2 mb-2 items-center pb-2">
             <p className="flex flex-row items-center gap-1 text-sm text-secondary"><FiClock size={12} />{blogInfo.date}</p>
-            <p>{/* Insert view count here */}</p>
-            {blogInfo.tags.map((t) => (
-              <a
-                name={`${t} tags`}
-                href={`/blog/tag/${t}`}
-                key={t}
-                className="p-1 px-2 text-secondary border-secondary border rounded text-xs transition-all duration-300 font-bold hover:text-white hover:border-white"
-              >
-                {t}
-              </a>
-            ))}
+            {/* Insert view count here */}
           </div>
 
 
