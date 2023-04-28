@@ -8,7 +8,7 @@ export default function Contributions() {
           <>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-6 pt-10 md:pt-12">
               {contributions.map((p, i) => (
-                <div key={i} className='flex p-[1px] bg-gradient-to-b from-secondary via-black via-25% to-white to-100%  rounded-xl'>
+                <div key={i} className='flex p-[1px] bg-gradient-to-b from-secondary to-transparent shadow-sm shadow-white/25 hover:shadow-white/75 transition-all duration-300 rounded-xl'>
                   <div
                   className="flex flex-col md:flex-row gap-4 rounded-xl bg-black px-4 md:pr-0 md:pt-4 overflow-hidden"
                 >

@@ -70,9 +70,9 @@ export default function Projects() {
   const OtherProjectsLayout = () => {
     return (
       <>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-6 pt-10 md:pt-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-6 pt-10 md:pt-32 ">
           {other_projects.map((p, i) => (
-            <div key={i} className="flex p-[1px] bg-gradient-to-b from-secondary via-black via-25% to-white to-100%  rounded-xl">
+            <div key={i} className="flex p-[1px] bg-gradient-to-b from-secondary to-transparent shadow-sm shadow-white/25 hover:shadow-white/75 transition-all duration-300 overflow-hidden rounded-xl">
               <div
                 className="flex flex-col bg-black self-stretch rounded-xl p-6"
               >
