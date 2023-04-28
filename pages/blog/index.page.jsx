@@ -22,7 +22,7 @@ const BlogItem = (blogInfo) => {
         className="flex flex-col hover:text-primary [&_h2]:hover:decoration-dotted transition-all duration-300"
         href={`/blog/${blogInfo.slug}`}
       >
-        <h2 className="text-2xl md:text-3xl font-bold underline">
+        <h2 className="text-2xl md:text-3xl underline">
           {blogInfo.title}
         </h2>
         <p className="text-md md:text-lg my-2 !text-secondary">{blogInfo.desc}</p>
