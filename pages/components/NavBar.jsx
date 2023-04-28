@@ -11,9 +11,9 @@ export default function NavBar() {
           <a name="Go Home" href="/#">
             <img alt="Portrait of me" src="/me.jpg" className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in" />
           </a>
-          <a name="More About Me" href="/#about" className="hover:text-primary transition-all duration-300">
+          {/* <a name="More About Me" href="/#about" className="hover:text-primary transition-all duration-300">
             About
-          </a>
+          </a> */}
           <a name="My Projects" href="/#projects" className="hover:text-primary transition-all duration-300">
             Projects
           </a>
