@@ -15,12 +15,14 @@ export default function Projects() {
             key={i}
             className="flex flex-col md:flex-row gap-4 pt-10 md:pt-12"
           >
-            <div className="flex flex-col space-between basis-2/3 order-2 md:order-1 py-2">
+            <div className="flex flex-col space-between basis-2/3 order-2 md:order-1 py-2 justify-between">
+              <div>
               <h2 className="text-3xl md:text-4xl font-bold pb-3 md:pb-10">
                 {p.title}
               </h2>
               <p className="text-xl text-secondary">{p.description}</p>
-              <div className="flex-1 flex flex-row items-end pt-4 text-xl gap-4 font-bold">
+              </div>
+              <div className="flex-initial flex flex-row items-center pt-4 text-xl gap-4 font-bold">
                 {!p.src ? null : (
                   <a
                     name="Project Source Preview"
