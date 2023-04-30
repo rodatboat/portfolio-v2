@@ -9,7 +9,7 @@
   <a href="https://github.com/rodatboat/portfolio-v1" target="_blank">v1</a>
 </p>
 
-![demo](https://raw.githubusercontent.com/rodatboat/v4/master/demo.png)
+![demo](https://raw.githubusercontent.com/rodatboat/portfolio-v2/master/demo.png)
 
 ## 🚨 Forking this repo
 
