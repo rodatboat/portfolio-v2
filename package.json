@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "vercel-build": "vite build & vite build --ssr",
+    "build": "vite build & vite build --ssr",
     "dev": "vite",
     "preview": "vite preview"
   },

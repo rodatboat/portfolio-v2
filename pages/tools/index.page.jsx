@@ -17,7 +17,6 @@ function Page(pageProps) {
     <>
       <NavBar />
       
-      <Contact />
       <Footer />
     </>
   );
