@@ -15,7 +15,7 @@
             "images": ["rapidaba2.png"]
         },
         {
-            "title": "Rez",
+            "title": "REZ",
             "description": "Rez allows you to send requests to a custom endpoint, and analyze data. Collect HTTP or webhook requests.",
             "src": "https://github.com/rodatboat/request-bin",
             "live": "https://www.rez.ronaldosuarez.dev",
