@@ -15,8 +15,8 @@
             "images": ["rapidaba2.png"]
         },
         {
-            "title": "REZ",
-            "description": "REZ allows you to easily send HTTP requests to a custom endpoint and analyze various data. Designed to help developers debug and test APIs.",
+            "title": "rez.",
+            "description": "Rez allows you to easily send HTTP requests to a custom endpoint and analyze various data. Designed to help developers debug and test APIs.",
             "src": "https://github.com/rodatboat/request-bin",
             "live": "https://www.rez.ronaldosuarez.dev",
             "stack": [
