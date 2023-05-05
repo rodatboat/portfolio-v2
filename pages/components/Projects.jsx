@@ -17,10 +17,17 @@ export default function Projects() {
           >
             <div className="flex flex-col space-between basis-2/3 order-2 md:order-1 py-2 justify-between">
               <div>
-              <h2 className="text-3xl md:text-4xl font-bold pb-3 md:pb-10">
-                {p.title}
-              </h2>
-              <p className="text-xl text-secondary">{p.description}</p>
+                <h2 className="text-3xl md:text-4xl font-bold pb-3 md:pb-10">
+                  {p.title}
+                </h2>
+                <div>
+                  <p className="text-xl text-secondary">{p.description}</p>
+                  <div className="inline-flex gap-4">
+                    {p.stack.map((t, i) => (
+                      <p key={t} className="text-sm text-secondary/50">{t}</p>
+                    ))}
+                  </div>
+                </div>
               </div>
               <div className="flex-initial flex flex-row items-center pt-4 text-xl gap-4 font-bold">
                 {!p.src ? null : (
@@ -53,7 +60,7 @@ export default function Projects() {
                   target="_blank"
                 >
                   <img
-                    className="h-full max-h-[250px] w-full object-cover object-top rounded-lg hover:scale-[101%] transition-all ease-in"
+                    className="h-full max-h-[250px] w-full object-cover object-top rounded-lg transition-all hover:scale-95 ease-in-out duration-300"
                     src={img}
                     alt={`${p.title} image`}
                     loading="lazy"
@@ -79,8 +86,16 @@ export default function Projects() {
                 <h2 className="text-2xl md:text-3xl font-bold py-3 md:py-2">
                   {p.title}
                 </h2>
+                
                 <div className="flex flex-col h-full justify-between">
-                  <p className="text-lg text-secondary">{p.description}</p>
+                <div>
+                  <p className="text-xl text-secondary">{p.description}</p>
+                  <div className="inline-flex gap-4">
+                    {p.stack.map((t, i) => (
+                      <p key={t} className="text-sm text-secondary/50">{t}</p>
+                    ))}
+                  </div>
+                </div>
                   <div className="flex flex-row items-center pt-3 text-xl gap-4 font-bold">
                     {!p.src ? null : (
                       <a
