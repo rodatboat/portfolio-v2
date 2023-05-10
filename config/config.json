@@ -56,7 +56,7 @@
         {
             "title": "RCMS Website",
             "description": "Company website for a property maintenance company based in South Florida.",
-            "live": "https://www.rcms-website.vercel.app",
+            "live": "https://rcms-website.vercel.app",
             "stack": [
                 "Vite",
                 "React",
@@ -110,7 +110,7 @@
             "title": "StockX Clone",
             "description": "StockX clone built with React, Mongo, Styled Components, Stripe API.",
             "src": "https://github.com/rodatboat/stockx-clone",
-            "live": "https://www.stockx-clone.vercel.app",
+            "live": "https://stockx-clone.vercel.app",
             "stack": [
                 "React", "Mongo", "Express"
             ],
