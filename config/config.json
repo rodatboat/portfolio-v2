@@ -55,7 +55,8 @@
         },
         {
             "title": "RCMS Website",
-            "description": "Company website for a property maintenance company based in South Florida.",
+            "description": "Company website for a property maintenance and handy services company based in South Florida.",
+            "src": null,
             "live": "https://rcms-website.vercel.app",
             "stack": [
                 "Vite",
