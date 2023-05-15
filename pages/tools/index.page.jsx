@@ -6,11 +6,9 @@ import Contact from "../components/Contact";
 
 export { Page };
 
-// export const documentProps = {
-//   // This title and description will override the defaults
-//   title: 'About SpaceX',
-//   description: 'Our mission is to explore the galaxy.'
-// }
+export const documentProps = {
+  title: 'Ronaldo Suarez | Tools',
+}
 
 function Page(pageProps) {
   return (

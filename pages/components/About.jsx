@@ -4,7 +4,8 @@ export default function About() {
   return (
       <>
       <div className='pt-24 md:pt-36' id="about">
-      <div className="flex flex-col gap-4 text-secondary text-xl [&>p>strong]:font-bold [&>p>strong]:text-white">
+      <div className='flex flex-col md:flex-row gap-32 md:gap-48'>
+      <div className="flex flex-col gap-8 [&_p]:leading-relaxed text-secondary text-xl [&>p>strong]:font-bold [&>p>strong]:text-white">
         <p>
           As a <strong>full-stack developer</strong> with over{" "}
           <strong>5+ years of experience</strong>, I've had the privilege of
@@ -30,6 +31,16 @@ export default function About() {
           <strong>unique perspective</strong> and work seamlessly with teams to
           make some magic happen.
         </p>
+      </div>
+      <div className='rounded-3xl h-full overflow-hidden'>
+        <img 
+        className='scale-110 object-cover object-top'
+        src="/portrait.jpg"
+        height="2560"
+        width="1920"
+        alt={`my portrait`}
+        loading="lazy" />
+      </div>
       </div>
       </div>
       </>
