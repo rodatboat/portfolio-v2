@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <div
-        className="flex flex-col md:flex-row justify-center items-start md:items-center justify-between py-10 rounded-xl"
+        className="flex flex-col md:flex-row justify-center items-start md:items-center justify-between mt-24 py-10 rounded-xl"
         id="contact"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-white">

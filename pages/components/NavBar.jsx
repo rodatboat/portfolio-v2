@@ -17,6 +17,9 @@ export default function NavBar() {
           <a name="My Projects" href="/#projects" className="hover:text-primary transition-all duration-300">
             Projects
           </a>
+          <a name="My Tools" href="/tools" className="hover:text-primary transition-all duration-300">
+            Tools
+          </a>
           <a name="My Blog" href="/blog" className="hover:text-primary transition-all duration-300">
             Blog
           </a>
