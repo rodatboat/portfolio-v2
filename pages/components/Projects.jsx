@@ -47,7 +47,7 @@ export default function Projects() {
                     target="_blank"
                     className="text-white hover:text-primary transition-all duration-300 hover:translate-x-1"
                   >
-                    {p.live.replace("https://www.", "")} →
+                    {p.live.replace("https://www.", "").replace("https://", "")} →
                   </a>
                 )}
               </div>
@@ -114,7 +114,7 @@ export default function Projects() {
                         target="_blank"
                         className="text-white hover:text-primary transition-all duration-300 hover:translate-x-1"
                       >
-                        {p.live.replace("https://www.", "")} →
+                        {p.live.replace("https://www.", "").replace("https://", "")} →
                       </a>
                     )}
                   </div>
