@@ -2,6 +2,7 @@ import React from "react";
 import { RiGithubFill, RiLinkedinFill } from "react-icons/ri/index.js";
 import { BsMailbox } from "react-icons/bs/index.js";
 import { CgLoadbarDoc } from "react-icons/cg/index.js";
+import LazyImage from "./LazyImage";
 
 export default function NavBar() {
   return (
@@ -9,7 +10,19 @@ export default function NavBar() {
       <div className="z-50 h-14 fixed top-0 -mx-4 sm:-mx-6 md:-mx-8 font-bold bg-black/40 backdrop-blur-lg">
         <div className="flex flex-row gap-8 h-full w-screen items-center justify-start text-secondary pl-4 sm:pl-6 md:pl-8">
           <a name="Go Home" href="/#">
-            <img alt="Portrait of me" src="/me.jpg" className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in" />
+          <div className="h-9 overflow-hidden rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in">
+          <LazyImage
+            src={"/me.jpg"}
+            blurHash={"LDF?2@E00J-:00kDtmM{9D-;~qNG"}
+            alt={`Portrait of me`}
+            height={50}
+            width={50}
+            />
+          </div>
+            {/* <img 
+            alt="Portrait of me" 
+            src="/me.jpg" 
+            className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in" /> */}
           </a>
           {/* <a name="More About Me" href="/#about" className="hover:text-primary transition-all duration-300">
             About

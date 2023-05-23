@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyImage from './LazyImage'
 
 export default function About() {
   return (
@@ -32,14 +33,15 @@ export default function About() {
               make some magic happen.
             </p>
           </div>
-          <div className='rounded-3xl h-full overflow-hidden'>
-            <img
-              className='scale-110 object-cover object-top'
-              src="/portrait.jpg"
-              height="2560"
-              width="1920"
-              alt={`my portrait`}
-              loading="lazy" />
+          <div
+          className='rounded-3xl min-h-[500px] md:min-h-full max-w-full aspect-video overflow-hidden overflow-hidden'>
+            <LazyImage
+            src={"/portrait.jpg"}
+            blurHash={"LDF?2@E00J-:00kDtmM{9D-;~qNG"}
+            alt={`my portrait`}
+            height={2560}
+            width={1920}
+            />
           </div>
         </div>
       </div>
