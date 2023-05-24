@@ -19,10 +19,6 @@ export default function NavBar() {
             width={50}
             />
           </div>
-            {/* <img 
-            alt="Portrait of me" 
-            src="/me.jpg" 
-            className="h-9 rounded-full object-cover aspect-square hover:scale-105 transition-all duration-100 ease-in" /> */}
           </a>
           {/* <a name="More About Me" href="/#about" className="hover:text-primary transition-all duration-300">
             About
@@ -64,14 +60,6 @@ export default function NavBar() {
           >
             <BsMailbox size={28} />
           </a>
-          {/* <a
-            name="Discord"
-            href="https://www.discord.com"
-            className="bg-white transition-all duration-300"
-            target="_blank"
-          >
-            <span className="font-bold tracking-wider">Ro</span>#0000
-          </a> */}
           <a
             className="hover:text-white transition-all duration-300"
             name="Ronaldo Suarez's Resume"
@@ -79,7 +67,6 @@ export default function NavBar() {
             target="_blank"
           >
             <CgLoadbarDoc size={28} />
-            {/* resume */}
           </a>
         </div>
       </div>
