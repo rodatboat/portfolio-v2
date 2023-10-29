@@ -1,7 +1,7 @@
 export { onBeforeRender };
 
 
-import { RenderErrorPage } from 'vite-plugin-ssr/RenderErrorPage'
+import { RenderErrorPage } from 'vike/RenderErrorPage'
 import { blogs } from "../../../config/config.json";
 import { marked } from "marked";
 

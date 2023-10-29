@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "url": "^0.11.0",
-    "vite-plugin-ssr": "^0.4.113"
+    "vike": "^0.4.113"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
