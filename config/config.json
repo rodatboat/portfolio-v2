@@ -25,7 +25,7 @@
                 "React",
                 "Tailwind",
                 "MongoDB",
-                "Vite Plugin SSR"
+                "Vite SSR"
             ],
             "images": [
                 "rez1.png"
@@ -53,7 +53,7 @@
             "title": "TrnkLink",
             "description": "Create a single landing page to house all your important links, and share it easily on social media, or anywhere else. Customize your page according to your brand.",
             "src": "https://github.com/rodatboat/trnk-link",
-            "live": "https://www.trnkl.ink",
+            "live": null,
             "stack": [
                 "Vite",
                 "React",
@@ -62,20 +62,6 @@
             ],
             "images": [
                 "trnklink_mockup.jpg"
-            ]
-        },
-        {
-            "title": "RCMS Website",
-            "description": "Company website for a property maintenance and handy services company based in South Florida.",
-            "src": null,
-            "live": "https://rcms-website.vercel.app",
-            "stack": [
-                "Vite",
-                "React",
-                "Tailwind"
-            ],
-            "images": [
-                "rcms1.png"
             ]
         },
         {
@@ -117,19 +103,6 @@
                 "Electron",
                 "Bulma",
                 "jQuery"
-            ],
-            "images": [
-                "lprecon.jpg"
-            ]
-        },
-        {
-            "title": "pwnChecker",
-            "description": "Python script that checks for leaked credentials, using the pwnDB Onion service.",
-            "src": "https://github.com/rodatboat/pwnChecker",
-            "live": null,
-            "stack": [
-                "Python",
-                "BeautifulSoup4"
             ],
             "images": [
                 "lprecon.jpg"
