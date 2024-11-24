@@ -7,10 +7,13 @@
             "live": "https://www.rapidaba.com",
             "stack": [
                 "React",
+                "Vike",
+                "Spring",
                 "Express",
+                "PostgreSQL",
                 "MongoDB",
-                "MUI",
-                "Stripe"
+                "Stripe",
+                "Docker"
             ],
             "images": [
                 "rapidaba2.png"
@@ -23,9 +26,9 @@
             "live": "https://www.rez.ronaldosuarez.dev",
             "stack": [
                 "React",
-                "Tailwind",
+                "Express",
                 "MongoDB",
-                "Vite SSR"
+                "Tailwind"
             ],
             "images": [
                 "rez1.png"
@@ -35,7 +38,7 @@
             "title": "readme.expert",
             "description": "Create professional-looking READMEs quickly and easily, with customizable templates and intuitive tools.",
             "src": "https://github.com/rodatboat/readme-expert",
-            "live": "https://www.readme.expert",
+            "live": "https://www.rmexpert.ronaldosuarez.dev",
             "stack": [
                 "Vite",
                 "React",
@@ -112,10 +115,10 @@
             "title": "StockX Clone",
             "description": "StockX clone built with React, Mongo, Styled Components, Stripe API.",
             "src": "https://github.com/rodatboat/stockx-clone",
-            "live": "https://stockx-clone.vercel.app",
+            "live": null,
             "stack": [
                 "React",
-                "Mongo",
+                "MongoDB",
                 "Express"
             ],
             "images": [
